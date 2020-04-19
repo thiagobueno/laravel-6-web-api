@@ -10,6 +10,9 @@ use Validator;
 
 class UserController extends Controller
 {
+    
+    public $successStatus = 200;
+    
     /**
      * login api
      *
